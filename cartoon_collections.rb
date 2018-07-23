@@ -41,6 +41,6 @@ array = []
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |el|
-  if el == "cheddar" || el == "gouda" || el == "camembert"
+  el == "cheddar" || el == "gouda" || el == "camembert"
 end
 end
