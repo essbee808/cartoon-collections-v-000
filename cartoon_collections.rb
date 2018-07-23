@@ -43,5 +43,7 @@ def find_the_cheese(array)
   array.detect? do |el|
     if cheese_types.any?
       "#{el}"
+    else
+      nil
   end
 end
