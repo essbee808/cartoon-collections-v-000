@@ -40,7 +40,7 @@ array = []
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each do 
+  array.each do |el|
   if array.find == cheese_types
     return "cheddar"
 end
